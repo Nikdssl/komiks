@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'HelveticaNeueCyr', sans-serif;
+  src: url("/fonts/fonts/HelveticaNeueCyr-Black.otf");
+  src: url("/fonts/fonts/HelveticaNeueCyr-Black.eot") format("eot"), url("/fonts/fonts/HelveticaNeueCyr-Black.woff") format("woff"), url("/fonts/fonts/HelveticaNeueCyr-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
 .conteiner {
   max-width: 1230px;
   padding: 0 15px;
@@ -27,10 +35,16 @@
 }
 
 .sezon_items {
-  width: 350px;
-  height: 60px;
+  padding: 20px 60px;
   border-radius: 4px;
   background-color: #ff103d;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 41.667px;
+  font-family: "HelveticaNeueCyr";
+  font-weight: 900;
+  font-style: normal;
+  line-height: 1.728;
 }
 
 .sezon_items + .sezon_items {
