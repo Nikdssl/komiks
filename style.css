@@ -14,6 +14,7 @@
   max-width: 1230px;
   padding: 0 15px;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .header_photo {
@@ -84,5 +85,44 @@
   font-style: normal;
   border-radius: 10px;
   text-decoration: none;
+}
+
+.komiks_inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #f2f2f2;
+}
+
+.kartinki {
+  position: relative;
+}
+
+.komiks_foto {
+  display: block;
+  max-width: 350px;
+  width: 100%;
+  height: auto;
+}
+
+.komiks_open {
+  font-family: 'HelveticaNeueCyr';
+  padding: 10px 30px;
+  display: block;
+  background-color: #acacac;
+  color: #ffffff;
+  font-weight: 900;
+  font-style: normal;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 24px;
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 /*# sourceMappingURL=style.css.map */
