@@ -1,13 +1,12 @@
 @font-face{
-font-family: 'HelveticaNeueCyr', sans-serif;
-src: url('/fonts/fonts/HelveticaNeueCyr-Black.otf');
-src: url('/fonts/fonts/HelveticaNeueCyr-Black.eot') format('eot'),
+font-family: 'HelveticaNeueCyr';
+src: url('/fonts/fonts/HelveticaNeueCyr-Black.otf'),
+url('/fonts/fonts/HelveticaNeueCyr-Black.eot') format('eot'),
 url('/fonts/fonts/HelveticaNeueCyr-Black.woff') format('woff'),
 url('/fonts/fonts/HelveticaNeueCyr-Black.ttf') format('truetype');
 font-weight: 900;
 font-style: normal;
 }
-
 
 .conteiner{
     max-width: 1230px;
@@ -15,35 +14,33 @@ font-style: normal;
     margin: 0 auto;
 }
 
-.header_photo {   
+.header_photo { 
+    display:block;
+    margin: 0 auto;      
     width: 100%; 
     max-width: 1200px;
-    height: auto;
-    object-fit: fill;    
+    height: auto; 
 }
 
 .sezon_inner{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 35px;
-    margin-bottom: 35px;
+    margin: 35px auto 35px;
+    
 }
 
 .sezon_items{
-    padding: 20px 60px;
-    border-radius: 4px;
+    font-family: "HelveticaNeueCyr";    
+    padding: 15px 34px;
+    border-radius: 15px;
     background-color:#ff103d;
     color: #ffffff;
     text-decoration: none;
-    font-size: 41.667px;
-    font-family: "HelveticaNeueCyr";
-    font-weight: 900;
-    font-style: normal;
-    line-height: 1.728;        
+    font-size: 30px;       
+    margin: 0 22px;   
+    display: block;    
 }
 
-.sezon_items + .sezon_items {
-    margin-left: 44px;
-}
+
 
