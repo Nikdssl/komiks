@@ -60,7 +60,7 @@ font-style: normal;
 
 .zagolovok_txt{  
     display: block;  
-    font-size: 25px;
+    font-size: 20px;
     font-family: "HelveticaNeueCyr";
     line-height: 2px;     
 	font-weight: normal;
@@ -75,16 +75,19 @@ font-style: normal;
 .all_sezon{
     font-family: 'HelveticaNeueCyr';
     padding: 10px 30px;
+    font-size: 20px;
     background-color: #acacac;
     color: #ffffff;
     font-weight: 900;
     font-style: normal;
     border-radius: 10px;
     text-decoration: none;
+    
 }
       
 .komiks_inner{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     background-color: #f2f2f2;
 }
@@ -99,7 +102,7 @@ font-style: normal;
 
 .komiks_foto{
     display: block;
-    max-width: 350px;
+    max-width: 250px;
     width: 100%; 
     height: auto; 
     
@@ -115,7 +118,7 @@ font-style: normal;
 	font-style: normal;
     border-radius: 10px;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 20px;
     position:absolute;
     bottom: 10%;
     left: 50%;
