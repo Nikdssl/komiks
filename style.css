@@ -34,6 +34,8 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -53,8 +55,49 @@
   color: #ffffff;
   text-decoration: none;
   font-size: 30px;
-  margin: 0 22px;
+  margin: 10px 22px;
   display: block;
+}
+
+@media (max-width: 890px) {
+  .sezon_items {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 720px) {
+  .sezon_items {
+    font-size: 20px;
+    padding: 10px 24px;
+    margin: 5px 10px;
+  }
+}
+
+@media (max-width: 582px) {
+  .sezon_items {
+    font-size: 13px;
+    padding: 10px 24px;
+    margin: 5px 10px;
+  }
+}
+
+@media (max-width: 460px) {
+  .sezon_items {
+    font-size: 13px;
+    padding: 10px 15px;
+    margin: 5px 5px;
+  }
+  .sezon_inner {
+    margin: 15px auto 15px;
+  }
+}
+
+@media (max-width: 375px) {
+  .sezon_items {
+    font-size: 12px;
+    padding: 10px 10px;
+    margin: 5px 2px;
+  }
 }
 
 .zagolovok {
@@ -73,11 +116,12 @@
 .zagolovok_txt {
   display: block;
   font-size: 20px;
+  white-space: nowrap;
   font-family: "HelveticaNeueCyr";
   line-height: 2px;
   font-weight: normal;
   font-style: normal;
-  padding: 20px 450px 20px 60px;
+  padding: 20px 400px 20px 60px;
   border-radius: 10px;
   background-color: #ffffff;
   margin-left: 50px;
@@ -95,6 +139,7 @@
   border-radius: 10px;
   text-decoration: none;
   margin-right: 50px;
+  white-space: nowrap;
 }
 
 .komiks_inner {
