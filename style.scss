@@ -161,11 +161,12 @@ font-style: normal;
         }
        
     }
-.komiks_inner{
+.komiks_inner, .komiks_inner2{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     background-color: #f2f2f2;
+    
 }
 
 .komiks_item{

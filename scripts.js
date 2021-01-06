@@ -1,4 +1,6 @@
-
+$(document).ready(function(){
+    
+    
     document.querySelector('.button_1').onclick = function() {
         if(this.innerHTML == "Показать еще")
         {
@@ -60,3 +62,32 @@ for(let anchor of anchors) {
     })
   })
 };
+
+
+
+	$( document ).ready(function(){	  
+	  $( ".slide-toggle" ).click(function(){ // задаем функцию при нажатиии на элемент с классом slide-toggle
+	    $( ".komiks_inner2" ).slideToggle(); // плавно скрываем, или отображаем все элементы <div>
+	  });
+  });
+  
+  $(".komiks_inner2").hide();
+
+  function fun1() {
+    if(document.querySelector('.button_1').innerHTML == "Показать еще")
+    {
+      document.querySelector('.button_1').innerHTML = "Свернуть";
+      return;
+    }
+    else document.querySelector('.button_1').innerHTML = "Показать еще";
+  };
+
+
+  
+  function Yakor(){}
+  
+  
+
+
+ 
+});
