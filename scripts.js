@@ -70,24 +70,35 @@ for(let anchor of anchors) {
 	    $( ".komiks_inner2" ).slideToggle(); // плавно скрываем, или отображаем все элементы <div>
 	  });
   });
+
+  $( document ).ready(function(){	  
+    $( ".slide-toggle2" ).click(function(){ // задаем функцию при нажатиии на элемент с классом slide-toggle
+    $( ".komiks_inner3" ).slideToggle(); // плавно скрываем, или отображаем все элементы <div>
+    if(document.querySelector('.button_1').innerHTML == "Свернуть"){
+      $(".komiks_inner2").hide();
+      document.querySelector('.button_1').innerHTML = "Показать еще";
+    };
+  });
+});
   
   $(".komiks_inner2").hide();
+  $(".komiks_inner3").hide();
 
-  function fun1() {
-    if(document.querySelector('.button_1').innerHTML == "Показать еще")
-    {
-      document.querySelector('.button_1').innerHTML = "Свернуть";
-      return;
-    }
-    else document.querySelector('.button_1').innerHTML = "Показать еще";
-  };
+ 
 
 
-  
-  function Yakor(){}
-  
-  
+ 
 
 
  
 });
+
+
+function fun1() {
+  if(document.querySelector('.button_1').innerHTML == "Показать еще")
+  {
+    document.querySelector('.button_1').innerHTML = "Свернуть";
+    return;
+  }
+  else document.querySelector('.button_1').innerHTML = "Показать еще";
+};

@@ -172,7 +172,7 @@
   }
 }
 
-.komiks_inner, .komiks_inner2 {
+.komiks_inner, .komiks_inner2, .komiks_inner3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
