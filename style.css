@@ -1,18 +1,18 @@
 @font-face {
   font-family: 'HelveticaNeueCyr';
-  src: url("/fonts/fonts/HelveticaNeueCyr-Black.otf"), url("/fonts/fonts/HelveticaNeueCyr-Black.eot") format("eot"), url("/fonts/fonts/HelveticaNeueCyr-Black.woff") format("woff"), url("/fonts/fonts/HelveticaNeueCyr-Black.ttf") format("truetype");
+  src: url("fonts/fonts/HelveticaNeueCyr-Black.otf"), url("fonts/fonts/HelveticaNeueCyr-Black.eot") format("eot"), url("fonts/fonts/HelveticaNeueCyr-Black.woff") format("woff"), url("fonts/fonts/HelveticaNeueCyr-Black.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'HelveticaNeueCyr';
-  src: url("/fonts/fonts/HelveticaNeueCyr-Roman.otf");
+  src: url("fonts/fonts/HelveticaNeueCyr-Roman.otf");
 }
 
 @font-face {
   font-family: 'Carson';
-  src: url("/fonts/fonts/Carson Bold.otf");
+  src: url("fonts/fonts/Carson Bold.otf");
 }
 
 .conteiner {
