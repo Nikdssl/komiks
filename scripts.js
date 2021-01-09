@@ -74,15 +74,27 @@ for(let anchor of anchors) {
   $( document ).ready(function(){	  
     $( ".slide-toggle2" ).click(function(){ // задаем функцию при нажатиии на элемент с классом slide-toggle
     $( ".komiks_inner3" ).slideToggle(); // плавно скрываем, или отображаем все элементы <div>
-    if(document.querySelector('.button_1').innerHTML == "Свернуть"){
-      $(".komiks_inner2").hide();
-      document.querySelector('.button_1').innerHTML = "Показать еще";
+    if(document.querySelector('.button_4').innerHTML == "Свернуть"){
+      $(".komiks_inner4").hide();
+      document.querySelector('.button_4').innerHTML = "Читать все";
     };
   });
+});
+
+
+$( document ).ready(function(){	  
+  $( ".slide-toggle3" ).click(function(){ // задаем функцию при нажатиии на элемент с классом slide-toggle
+  $( ".komiks_inner4" ).slideToggle(); // плавно скрываем, или отображаем все элементы <div>
+  if(document.querySelector('.button_3').innerHTML == "Свернуть"){
+    $(".komiks_inner3").hide();
+    document.querySelector('.button_3').innerHTML = "Читать все";
+  };
+});
 });
   
   $(".komiks_inner2").hide();
   $(".komiks_inner3").hide();
+  $(".komiks_inner4").hide();
 
  
 
