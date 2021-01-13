@@ -49,7 +49,7 @@ font-style: normal;
 	font-style: normal;  
     padding: 15px 34px;
     border-radius: 15px;
-    background-color:#ff103d;
+    background-color:#c31c3e;
     color: #ffffff;
     text-decoration: none;
     font-size: 30px;       
@@ -166,6 +166,7 @@ font-style: normal;
     flex-wrap: wrap;
     justify-content: space-between;
     background-color: #f2f2f2;
+    padding: 0px 10px;
     
 }
 
@@ -190,7 +191,7 @@ font-style: normal;
     
 }
 
-@media (max-width: 1040px) {
+@media (max-width: 1157px) {
     .komiks_item {
         width: 50%;
         margin: 0 auto; }
@@ -223,7 +224,7 @@ font-style: normal;
   
 }
 
-@media (max-width: 457px) {
+@media (max-width: 467px) {
     .komiks_item {
         width: 50%;
         margin: 0 auto; }
@@ -234,7 +235,7 @@ font-style: normal;
   
 }
 
-@media (max-width: 354px) {
+@media (max-width: 384px) {
     .komiks_item {
         width: 100%;
         margin: 0 auto; }
@@ -265,7 +266,7 @@ font-style: normal;
 .komiks_zagolovok{    
     font-size: 20px;
     font-family: "HelveticaNeueCyr";
-    color:#ff103d;    
+    color:#c31c3e;    
     text-align: center; 
     line-height: 1;  
     margin: 20px 0 0;  
@@ -335,7 +336,7 @@ font-style: normal;
     display:block;
     margin: 0 auto;      
     width: 100%; 
-    max-width: 1200px;
+    max-width: 1300px;
     height: auto; 
 
 }
@@ -344,7 +345,7 @@ font-style: normal;
     font-family: "HelveticaNeueCyr";  
     font-weight: 900;
     font-style: normal; 
-    color:#ff103d;    
+    color:#c31c3e;    
     text-align: center; 
     font-size: 25px;
 }
@@ -426,7 +427,7 @@ font-style: normal;
 
 
   .footer_txt2 {    
-    font-size: 50px;
+    font-size: 40px;
     font-family: "Carson";
     color: black;
     font-weight: bold;
@@ -437,18 +438,18 @@ font-style: normal;
   
   @media (max-width: 1025px) {
     .footer_txt {
-        font-size: 30px;
+        font-size: 20px;
     }
     .footer_txt2 {
-        font-size: 30px;
+        font-size: 20px;
     }
 }
 
 @media (max-width: 370px) {
     .footer_txt {
-        font-size: 25px;
+        font-size: 16px;
     }
     .footer_txt2 {
-        font-size: 25px;
+        font-size: 16px;
     }
 }
