@@ -185,6 +185,18 @@
   padding: 0px 10px;
 }
 
+.komiks_inner3 .komiks_item:last-child {
+  margin-right: auto;
+  margin-left: 5%;
+}
+
+@media (max-width: 1157px) {
+  .komiks_inner3 .komiks_item:last-child {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
 .komiks_item {
   text-align: center;
 }
@@ -270,6 +282,7 @@
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+  opacity: 80%;
 }
 
 .komiks_zagolovok {
