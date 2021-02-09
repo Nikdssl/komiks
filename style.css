@@ -484,4 +484,8 @@
     font-size: 16px;
   }
 }
+
+.invis {
+  display: none;
+}
 /*# sourceMappingURL=style.css.map */
